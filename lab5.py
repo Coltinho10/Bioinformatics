@@ -57,10 +57,6 @@ def print_alignment(s1, s2):
             stack2.append('-')
             i = i - 1
 
-        # if BT[i][j] == 's':
-        #     if s1[i] != 's' or s2[j] != 's':
-        #         stack1.append(s1[i - 1])
-        #         stack2.append(s2[j])
 
     stack1.reverse()
     stack2.reverse()
